@@ -1,4 +1,4 @@
-# Quickstart: Synthesize speech in Unity using the Speech SDK for Unity
+# Quickstart: Synthesize speech in Unity using the Speech SDK for Unity and make it AI Using Rasa chatbot
 
 This sample demonstrates how to synthesize speech in [Unity](https://unity3d.com/).
 
@@ -7,7 +7,16 @@ This sample demonstrates how to synthesize speech in [Unity](https://unity3d.com
 
 ## Prerequisites
 
-* This sample is targeted for Unity 2020.3 or later. To install, pick an appropriate option in the [Unity store](https://store.unity.com/).
+*Remember to replace in the NetworkManager.cs script your Rasa server running url.
+*Remember to replace on files HelloWorld.cs and HelloWorld2.cs the subscription Key which you retrieved from Microsoft Azure
+*The algorithm works as well, 1. Speak 2. Send Message to Rasa. 3. Retrieve the answer. 4. Synthesizer the answer from Azure. All works automatically. You press only the button to speak.
+
+Credits:
+  Many thanks to AzureSamples for their Integration with Unity and Azure.
+  Many thanks to https://medium.com/analytics-vidhya/integrating-rasa-open-source-chatbot-into-unity-part-1-the-connection-9ba582c804cd
+  Many thanks to https://github.com/james94
+
+* This sample is targeted for Unity 2021.3.2f1 or later. To install, pick an appropriate option in the [Unity store](https://store.unity.com/).
   > Note:
   > * If you are not familiar with Unity, it is recommended to study the [Unity User Manual](https://docs.unity3d.com/Manual/UnityManual.html) before starting your app development.
 * A subscription key for the Speech service. See [Try the speech service for free](https://docs.microsoft.com/azure/cognitive-services/speech-service/get-started).
