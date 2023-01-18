@@ -45,7 +45,7 @@ public class HelloWorld2 : MonoBehaviour
 
         // Creates an instance of a speech config with specified subscription key and service region.
         // Replace with your own subscription key and service region (e.g., "westus").
-        var config = SpeechConfig.FromSubscription("cf3666df8e024a64b5af89b9e9d669ca", "westeurope");
+        var config = SpeechConfig.FromSubscription("YourKeyFromAzure", "RegionFromAzure");
 
         // Make sure to dispose the recognizer after use!
         config.SpeechRecognitionLanguage = fromLanguage; // Dikia moy entolh * koita sto line 30
