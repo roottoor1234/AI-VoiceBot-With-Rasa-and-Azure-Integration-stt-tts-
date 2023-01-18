@@ -13,7 +13,10 @@ This sample demonstrates how to synthesize speech in [Unity](https://unity3d.com
 
 *The algorithm works as well, 1. Speak 2. Send Message to Rasa. 3. Retrieve the answer. 4. Synthesizer the answer from Azure. All works automatically. You press only the button to speak.
 
+Finally, dont forget to install the Microsoft.Congnitive.Services.unity library. You will find it while scrolling.
+
 Credits:
+
   Many thanks to AzureSamples for their Integration with Unity and Azure.
   
   Many thanks to https://medium.com/analytics-vidhya/integrating-rasa-open-source-chatbot-into-unity-part-1-the-connection-9ba582c804cd
