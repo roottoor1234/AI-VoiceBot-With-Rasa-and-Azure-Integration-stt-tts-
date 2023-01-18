@@ -18,8 +18,8 @@ public class HelloWorld : MonoBehaviour
     public AudioSource audioSource;
 
     // Replace with your own subscription key and service region (e.g., "westus").
-    private const string SubscriptionKey = "cf3666df8e024a64b5af89b9e9d669ca";
-    private const string Region = "westeurope";
+    private const string SubscriptionKey = "YourKeyFromAzure";
+    private const string Region = "RegionFromAzure";
 
     private const int SampleRate = 24000;
 
